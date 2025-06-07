@@ -8,3 +8,4 @@ For the features each alpha-numerical is hot encoded to a vector in a 37 dimensi
 The more recently the number plate is purchased, higher will be its cost because of inflation. So another feature is the difference in the dates between the first plate bought and the date for any given plate for which the feature has to be extracted.
 Lastly the privilleges given to government codes are listen in a dictionary in the supplementary_english.py file in numerical format only , so there is no need to manipulate that data and it can be used as a feature as it is.
 
+The cost fucntion used is SMAPE as told in the competiton. This model achieves a score of 59 on this scale.
